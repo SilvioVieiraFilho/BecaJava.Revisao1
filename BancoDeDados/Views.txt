@@ -16,3 +16,22 @@ FROM
 
 
 SELECT *FROM Dados_Alunos
+
+
+CREATE VIEW Nome_livro
+AS
+SELECT 
+*
+FROM
+Livros
+
+SELECT*FROM Nome_livros
+CREATE VIEW Dados_Alunos
+AS
+SELECT 
+*
+FROM
+    Alunos
+
+
+SELECT *FROM Dados_Alunos
